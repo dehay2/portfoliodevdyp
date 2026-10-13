@@ -1,3 +1,37 @@
-body {
-  background-color: blue;
+:root {
+  --heading-font-family: "Crimson Text", serif;
+  --secondary-font-family: "Nunito Sans", sans-serif;
+}
+
+h2 {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 90px;
+}
+
+p {
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+}
+
+.hero-home {
+  text-align: center;
+  background: #e8f2f9;
+  padding: 160px 20px;
+}
+
+.hero-btn {
+  border-radius: 4px;
+  color: white;
+  padding: 15px 30px;
+  background: #26b9d3;
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
 }
