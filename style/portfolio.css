@@ -3,9 +3,21 @@
   --secondary-font-family: "Nunito Sans", sans-serif;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 780px) {
   .special-body {
     margin: 25px;
+  }
+
+  .weather-name {
+    margin-top: -150px;
+  }
+
+  .weathers {
+    margin-bottom: 25px;
+  }
+
+  .socials {
+    max-width: fit-content;
   }
 }
 
@@ -70,6 +82,11 @@ p {
 
 .app-button {
   padding: 15px 20px;
+}
+
+.weathers {
+  padding-left: 60px;
+  max-width: 90%;
 }
 
 .socials {
