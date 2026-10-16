@@ -19,6 +19,18 @@
   .socials {
     max-width: fit-content;
   }
+
+  .about-page {
+    text-align: center;
+  }
+
+  .about-app-button {
+    margin-bottom: 40px;
+  }
+
+  .about-page p {
+    padding: 0;
+  }
 }
 
 h1 {
@@ -28,16 +40,16 @@ h1 {
 }
 
 h2 {
-  font-family: var(--secondary-font-family);
   font-size: 55px;
   font-weight: bold;
+  font-family: var(--secondary-font-family);
 }
 
 h3 {
   text-align: center;
+  font-weight: 700;
   font-family: var(--secondary-font-family);
   font-size: 18px;
-  font-weight: 700;
 }
 
 p {
@@ -91,4 +103,39 @@ p {
 
 .socials {
   max-width: 105%;
+}
+
+.about-page {
+  padding: 160px 20px;
+}
+
+.about-page h1 {
+  font-size: 70px;
+  padding: 10px 20px 10px 0;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+.about-page h2 {
+  font-size: 24px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+.about-page p {
+  font-size: 18px;
+  padding: 10px 80px 10px 0;
+  font-family: var(--secondary-font-family);
+}
+
+.about-page img {
+  max-width: 85%;
+  border-radius: 12px;
+}
+
+.about-app-button {
+  font-weight: 600;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-family: var(--secondary-font-family);
 }
