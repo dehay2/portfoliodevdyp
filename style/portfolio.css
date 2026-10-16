@@ -3,36 +3,6 @@
   --secondary-font-family: "Nunito Sans", sans-serif;
 }
 
-@media (max-width: 780px) {
-  .special-body {
-    margin: 25px;
-  }
-
-  .weather-name {
-    margin-top: -150px;
-  }
-
-  .weathers {
-    margin-bottom: 25px;
-  }
-
-  .socials {
-    max-width: fit-content;
-  }
-
-  .about-page {
-    text-align: center;
-  }
-
-  .about-app-button {
-    margin-bottom: 40px;
-  }
-
-  .about-page p {
-    padding: 0;
-  }
-}
-
 h1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
@@ -138,4 +108,35 @@ p {
   padding: 15px 40px;
   font-size: 18px;
   font-family: var(--secondary-font-family);
+}
+
+@media (max-width: 780px) {
+  .special-body {
+    margin: 25px;
+  }
+
+  .weather-name {
+    margin-top: -150px;
+  }
+
+  .weathers {
+    margin-bottom: 25px;
+  }
+
+  .socials {
+    max-width: fit-content;
+  }
+
+  .about-page {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .about-page p {
+    padding: 0;
+  }
+
+  .about-app-button {
+    margin-bottom: 40px;
+  }
 }
