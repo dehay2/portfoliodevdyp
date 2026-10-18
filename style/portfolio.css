@@ -2,6 +2,7 @@
   --heading-font-family: "Crimson Text", serif;
   --secondary-font-family: "Nunito Sans", sans-serif;
   --primary-color: #26b9d3;
+  --secondary-color: #e8f2f9;
 }
 
 h1 {
@@ -30,8 +31,18 @@ h4 {
   font-size: 29px;
 }
 
+h5 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--secondary-font-family);
+}
+
 p {
   font-size: 18px;
+}
+
+footer {
+  padding: 60px 0 80px 0;
 }
 
 .collapse {
@@ -51,7 +62,7 @@ ul li {
 
 .hero-home {
   text-align: center;
-  background: #e8f2f9;
+  background: var(--secondary-color);
   padding: 160px 20px;
 }
 
@@ -140,6 +151,38 @@ ul li {
   font-size: 15px;
   font-family: var(--secondary-font-family);
   font-weight: bold;
+}
+
+.inquiry-box {
+  background: var(--secondary-color);
+  padding: 20px 140px;
+  border-radius: 10px;
+}
+
+footer p {
+  font-size: 16px;
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+}
+
+.email-link {
+  font-size: 24px;
+  font-family: var(--secondary-font-family);
+  color: black;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: var(--primary-color);
+}
+
+.social-links a {
+  font-size: 20px;
+  color: var(--primary-color);
+  margin: 0 20px;
+  padding: 10px 14px;
+  background: var(--secondary-color);
+  border-radius: 50px;
 }
 
 @media (max-width: 760px) {
