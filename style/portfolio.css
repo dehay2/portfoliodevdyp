@@ -1,6 +1,7 @@
 :root {
   --heading-font-family: "Crimson Text", serif;
   --secondary-font-family: "Nunito Sans", sans-serif;
+  --primary-color: #26b9d3;
 }
 
 h1 {
@@ -33,6 +34,21 @@ p {
   font-size: 18px;
 }
 
+.collapse {
+  display: flex;
+  justify-content: end;
+  transition: all 0.2s;
+  transition-delay: 0s;
+}
+
+ul li {
+  padding-left: 12px;
+}
+
+.nav-item .nav-link.active {
+  color: var(--primary-color);
+}
+
 .hero-home {
   text-align: center;
   background: #e8f2f9;
@@ -55,7 +71,7 @@ p {
   border-radius: 4px;
   color: white;
   padding: 15px 30px;
-  background: #26b9d3;
+  background: var(--primary-color);
   font-family: var(--secondary-font-family);
   font-size: 18px;
 }
@@ -126,7 +142,7 @@ p {
   font-weight: bold;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 760px) {
   .special-body {
     margin: 25px;
   }
