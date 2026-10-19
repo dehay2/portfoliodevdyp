@@ -186,12 +186,14 @@ footer p {
   border-radius: 50px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 800px) {
   .special-body h1,
   h2,
-  h3,
   h5 {
     font-size: 40px;
+  }
+  .baking-home {
+    margin-top: 60px;
   }
 
   .weather-name {
@@ -229,6 +231,6 @@ footer p {
 
   .inquiry-button {
     padding: 5px;
-    font-size: 12px;
+    font-size: 10px;
   }
 }
