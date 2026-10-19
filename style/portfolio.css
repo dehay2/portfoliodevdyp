@@ -37,12 +37,17 @@ h5 {
   font-family: var(--secondary-font-family);
 }
 
+h6 {
+  font-family: var(--heading-font-family);
+  font-size: 46px;
+}
+
 p {
   font-size: 18px;
 }
 
 footer {
-  padding: 60px 0 80px 0;
+  padding: 190px 0 80px 0;
 }
 
 .collapse {
@@ -63,7 +68,7 @@ ul li {
 .hero-home {
   text-align: center;
   background: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 
 .hero-home h2 {
@@ -131,8 +136,12 @@ ul li {
   margin: 30px;
 }
 
+.content-section a {
+  text-decoration: none;
+}
+
 .content-pages {
-  padding: 160px 10px;
+  padding: 30px 10px;
 }
 
 .content-pages h1 {
@@ -167,7 +176,7 @@ footer p {
 }
 
 .email-link {
-  font-size: 24px;
+  font-size: 21px;
   font-family: var(--secondary-font-family);
   color: black;
   text-decoration: none;
@@ -178,7 +187,7 @@ footer p {
 }
 
 .social-links a {
-  font-size: 20px;
+  font-size: 14px;
   color: var(--primary-color);
   margin: 0 20px;
   padding: 10px 14px;

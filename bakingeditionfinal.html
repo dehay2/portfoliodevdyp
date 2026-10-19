@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baking Edition</title>
+    <style>
+      body {
+        background: linear-gradient(
+          44.8deg,
+          rgba(255, 136, 102, 0.67) -53.1%,
+          rgba(255, 221, 136, 0.28) 49%
+        );
+      }
+
+      h1 {
+        text-align: center;
+        color: #734444;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+        margin: 16px;
+        line-height: 25px;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 20px;
+      }
+
+      .button {
+        display: block;
+        margin: 0 auto;
+        border-radius: 50px;
+        box-shadow:
+          0,
+          4px,
+          8px rgba (0, 0, 0, 0.2);
+        padding: 0;
+        font-size: 16px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        line-height: 30px;
+      }
+
+      button:hover {
+        transition: all 200ms ease-in-out;
+        cursor: pointer;
+        background-color: #defcf9;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .baking-project {
+        padding: 30px, 60px;
+        margin: 0 auto;
+        max-width: 600px;
+      }
+
+      .candy {
+        color: #83580b;
+        margin: 0 auto;
+      }
+
+      .recipe {
+        text-align: center;
+      }
+
+      .yum {
+        text-decoration: none;
+        font-size: 16.5px;
+        line-height: 50px;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="baking-project">
+      <h1>Baking Wonderland</h1>
+      <h2><em> Cake Edition</em></h2>
+      <hr />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/154/966/original/bakingproject.jpg?1736992555"
+      />
+      <hr />
+      <p>
+        Baking is similar to escaping reality. Baking gives people the
+        opportunity to learn a new skill and create something fun. It can be a
+        great stress reliever! For others, it's a great bonding experience,
+        whether it's with friends, family, or coworkers. I, for one, love making
+        homemade recipes and learning a new skill while doing it. Did you know?
+        When making homemade chocolate cake, the recipe includes a shot of
+        espresso powder and 1 cup of stout beer. It may not sound good but trust
+        me, it will be the best chocolate cake you ever tasted! Especially with
+        the icing on top. Check out the recipe below to find out for yourself if
+        you do not believe me.
+      </p>
+      <div class="recipe">
+        <a
+          href="https://tasty.co/recipe/the-ultimate-chocolate-cake"
+          target="_blank"
+          class="yum"
+          ><strong
+            >🍫Greatest<span class="candy"> Chocolate Cake</span>
+            Recipe🍰</strong
+          >
+        </a>
+      </div>
+
+      <br />
+
+      <button class="button">🥐More Yummy Recipes🥞</button>
+      <script>
+        function clickMore() {
+          let name = prompt("What is your name?");
+          if (name) {
+            alert(
+              "Thank you, " +
+                name +
+                "! We will be in touch. In the meantime, try out the greast chocolate cake recipe below! 😊",
+            );
+          } else {
+            alert("No name" + name + ", no yummy recipes for you 😞");
+          }
+        }
+
+        let clickButton = document.querySelector("button");
+        clickButton.addEventListener("click", clickMore);
+      </script>
+    </div>
+  </body>
+</html>
