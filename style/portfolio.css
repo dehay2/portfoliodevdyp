@@ -157,6 +157,7 @@ ul li {
   background: var(--secondary-color);
   padding: 20px 140px;
   border-radius: 10px;
+  margin-top: 50px;
 }
 
 footer p {
@@ -186,8 +187,11 @@ footer p {
 }
 
 @media (max-width: 760px) {
-  .special-body {
-    margin: 25px;
+  .special-body h1,
+  h2,
+  h3,
+  h5 {
+    font-size: 40px;
   }
 
   .weather-name {
@@ -199,7 +203,7 @@ footer p {
   }
 
   .socials {
-    max-width: fit-content;
+    max-width: 100%;
   }
 
   .content-pages {
@@ -217,5 +221,14 @@ footer p {
 
   .section-col-two {
     width: 130%;
+  }
+
+  .inquiry-box {
+    padding: 15px 30px;
+  }
+
+  .inquiry-button {
+    padding: 5px;
+    font-size: 12px;
   }
 }
