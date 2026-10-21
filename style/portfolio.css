@@ -201,6 +201,7 @@ footer p {
   h5 {
     font-size: 40px;
   }
+
   .baking-home {
     margin-top: 60px;
   }
@@ -241,5 +242,15 @@ footer p {
   .inquiry-button {
     padding: 5px;
     font-size: 10px;
+  }
+
+  @media (min-width: 350px) {
+    .hero-home h1 {
+      font-size: 85px;
+    }
+
+    .content-pages {
+      padding: 20px 10px;
+    }
   }
 }
